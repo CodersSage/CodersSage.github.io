@@ -1,0 +1,127 @@
+
+*{box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+@media screen  and (min-width:992px)
+{
+
+    .body{margin:4% ;
+        
+  
+    height:700px;}
+
+    h1{margin-left:45%;
+    }
+
+    .content{float:left;
+        background-color:grey;
+        width: 30%;
+            height:30%;
+        margin-left:3%;
+        border:1px thick black;;}
+
+
+    .one{margin:3%;
+    padding-top:9%;}
+
+
+.two{   
+    text-align: center;
+    
+    padding-top:6px;
+        float:right;
+        width:90px;
+    height:35px;
+    border:1px thick black;
+
+  
+}
+  
+.b1b{background-color:pink;}
+.b2b{background-color:rgb(234, 105, 105);color:white}
+.b3b{background-color:rgb(169, 172, 9);}
+}
+
+
+@media screen  and (min-width :768px ) and (max-width :991px ){
+
+    .body{margin:4% ;
+        
+  
+        height:700px;}
+        .b1b{background-color:pink;}
+.b2b{background-color:rgb(234, 105, 105);color:white}
+.b3b{background-color:rgb(169, 172, 9);}
+    
+        h1{margin-left:38%;}
+
+        .box1,.box2{float:left;
+        width:40%;
+    }
+        .box3{clear:left;
+        width:88%;}
+    
+        .content{
+            margin:4%;
+            background-color:grey;
+             height:30%;
+             border:1px thick black;}
+    
+    
+        .b1a,.b2a{
+            margin-top:4%;
+            padding:10% 4%;}
+    
+    .b3a{
+        margin-top:1%;
+        padding:5% 2%;
+
+
+    }
+    .two{   text-align: center;
+       
+        padding-top:6px;
+            float:right;
+            width:90px;
+        height:35px;
+        border:1px thick black;
+    }
+    
+}
+
+
+@media screen  and (max-width :767px ) and (min-width:150px){
+
+    .body{margin:4% ;
+        
+  
+        height:700px;}
+        .b1b{background-color:pink;}
+.b2b{background-color:rgb(234, 105, 105);color:white}
+.b3b{background-color:rgb(169, 172, 9);}
+    
+        h1{margin-left:30%;}
+    
+        .content{
+            background-color:grey;
+         
+                width: 80%;
+                height:30%;
+            margin:3%;
+            border:1px thick black;}
+    
+    
+        .one{margin:3%;
+        padding-top:9%;}
+    
+    
+    .two{   
+        padding-left:10px;
+        padding-top:6px;
+            float:right;
+            width:90px;
+        height:35px;
+        border:1px thick black;
+    }
+    
+}
