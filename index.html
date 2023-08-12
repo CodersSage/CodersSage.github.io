@@ -4,149 +4,171 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
+
 <body>
-    <div class="calculatorbody">
-<div class="mainscreen">
-    <div id="screen"></div>
-    <div id="screen2"></div>
+<div class="base">
+    <img class="bgi" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NBw0NDQ0HBwcHBw8IDQcNFREWFhURExMYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDisZFRkrKzc3KzctKys3KystNy0rKzctKysrKysrLS0rKysrKysrKystKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIFBAf/xAAWEAEBAQAAAAAAAAAAAAAAAAAAARH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQMEAv/EABcRAQEBAQAAAAAAAAAAAAAAAAARASH/2gAMAwEAAhEDEQA/APtII8tAAUqLUBEVFUShVVKlWpVESqlVUKArICiJVSvSolVKoIqKqAKIiooAKIAoAKoADqAOFgAgCKgoioogJVUSqlBEqpVVEVFVARQRUVUqVaj0oioogCiAiqFBRFCrUQAUAB1BBxMAQFAQBFRQqAKiVUVRmrUXFEWsqCVUVUCooIqVVQoigCKpUBQBFFqAoAAACukIONgogAICiKiggUVARQQFVEWoqiAoiKgpUEVRFRQQKogCqgCgCAogooiiugA5GACAogKIqKCAKIIoIAolEqqIqKJQSqogAlBFUAUEEVQAEVBRRApGsGQI6Ag5mKiAKggKglFVBFAEFEBQqLUVSs1UFEVmqAIqggKWoCggCiAoAAAgKIA6AgwYggCiAKggoIKKggoioAgKqAKqIqAIIqhRBSoqAIqKAApUKAAFUAKj3CDFiogoqCAogKAgAIoACoiooIAqAUCsrUVRFQVABUAUEAUBAAAFQFe5AZMAAABQQAAAEEFAFEAFRFQU1AUQAVEWoKItSigAICCgAALAME0E69og8MVQAAQVUAABQQAEqoKIChUAUqUQURUFEUBKioLBFQUQoACCtYiACoA9og8sAAAVAAFAAVAAQCiJQBUAVURUFEVKKagUVAoKIAICVFAAABQAHsARzigAgAAAAKqAAhQBABUQFUQAKlAVCgKlAFQBAxkBcABQAAAH/9k=">
+    <p class="name">CircleTalk</p>
 
-</div>    
-    <br><br>
-<div class="row1">
-    <div class="button b1">1</div>
-   
-    <div class="button b2">2</div>
+    <div class="body" >
+       <input class="a" type="text" placeholder="Mobile Number or Email"  style="float:left; " id="num"> 
+ 
+     <div  class="inf">
+      <img    class="img1"   style="width:3vw;"   src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/1200px-Infobox_info_icon.svg.png">
+      <p class="bb" style="background-color:pink" >use @gmail.com</p>
+    </div>
+<p id="msgbar2"  class="m2m"></p>
 
-    <div class="button b2">3</div>
-
-    <div class="button b2" >+</div>
-
-  </div> 
-
-  <div class="row2">
-    <div class="button b1">4</div>
-   
-    <div class="button b2">5</div>
-
-    <div class="button b2">6</div>
-
-    <div class="button b2" >-</div>
-
-  </div> 
+    
 
 
-  <div class="row3">
-    <div class="button b1">7</div>
-   
-    <div class="button b2">8</div>
+<input class="b" type="text" placeholder="Full Name" id="fullname"> 
 
-    <div class="button b2">9</div>
+<p id="msgbar1"  class="m4m"></p>
 
-    <div class="button b2" >*</div>
 
-  </div> 
-
-<div class="row4">
+<br>
+<input class="b" type="text" placeholder="Username"> 
 
 
 
-   <div id="b2" class="buttons2 b1">C</div>
+<br>
+<input class="b" type="text" placeholder="Password" id="pass"> 
 
-   <div class="button b2">0</div>
 
-    <div class=" button b2 ">.</div>
+<p id="msgbar3" class="m3m"></p>
 
-    <div id="b2" class="buttons1 b2">= </div>
+<br>
 
+<button onclick="checkall()" >  
+    <span>Sign up</span>
+    <img style="width:2vw;" src="https://cdn-icons-png.flaticon.com/512/3580/3580177.png">
+
+</button>
+
+<p id="msgbar4" class="m3m" ></p>
+ 
+
+    </div>
 </div>
 
+<script>
 
+
+var msg1="",msg2="",msg3="";
+
+
+function checkname(){
+
+var name=document.getElementById("fullname").value;
+
+    var containsAlphabet=false ;
+    var c=name.length;
     
-    </div>       
-    <script>
+
+    for (var i=0;i<c;i++){
        
-var str="";
-var str2='';
-var str3='';
+        if (( name[i] >= 'A' &&  name[i]<= 'Z') || (name[i]>= 'a' && name[i]<= 'z')){
+            containsAlphabet = true;
+             msg1="";
+             break;
+            
+        }
+
+else {
 
 
-
-
-       
-const screen = document.getElementById("screen")
-
-const screen2 = document.getElementById("screen2")
-
-const allButtons = document.getElementsByClassName('button');
-
-const equalButton = document.getElementsByClassName('buttons1');
-
-const ACButton = document.getElementsByClassName('buttons2');
-
-
-
-
-
-
-Array.prototype.forEach.call(allButtons, (e) => e.addEventListener('click', () => {
-    
-    
-    
-    str += e.innerHTML;
-    screen.innerHTML=str;
-    
    
+    msg1="the Name should have atleast 1 alphabet";
+}
 
 
-
-    }));
-
-
-
-    Array.prototype.forEach.call(ACButton, (e) => e.addEventListener('click',()=>
-
-
-    {
-        str ='' ;
-        screen.innerHTML=str;
-
-        str2='';
-        screen2.innerHTML=str2;
-   
     }
-    
-    
-    
-    ))
+   
+    document.getElementById("msgbar1").innerHTML=msg1;
 
-
-
-Array.prototype.forEach.call(equalButton, (e) => e.addEventListener('click',()=>
-
-
-{
-  
-str2=eval(str);
-screen2.innerHTML=str2;
 }
 
 
 
-))
+function checkno(){
+
+var num=document.getElementById("num").value;
 
 
 
-  
-     
-        </script>
-        
+var numlength=num.length;
+if (num.length<11)
+{
+    // document.getElementById("msgs").style.display="block";
+msg2+="Mobile number should have 11 digits"
+
+}
+
+document.getElementById("msgbar2").innerHTML=msg2;
+
+}
+
+
+
+function checkpass(){
+
+var pass=document.getElementById("pass").value;
+
+var passlength=pass.length;
+
+
+
+if (passlength<8)
+{
+    // document.getElementById("msgs2").style.display="block";
+msg3+="Password should have atleast 8 character"
+
+}
+
+document.getElementById("msgbar3").innerHTML=msg3;
+
+
+
+}
+
+function succlogin()
+
+{
+    var msg4="";
+
+if (msg1=="" && msg2=="" && msg3==""){
+
+   msg4+="Signup Successful";
+}
+document.getElementById("msgbar4").innerHTML=msg4;
+
+}
+
+
+function checkall(){
+
+    
+checkname();
+checkno();
+checkpass();
+succlogin();
 
 
 
 
+}
+
+
+
+</script>
 </body>
 </html>
