@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-color: white;
+        color:black}
+        button{width:60px;
+        height: 60px;}
+
+        img{width:40px;
+        height: 40px;}
+    </style>
+</head>
+<body>
+    <button onclick="night()"    ><img src="dark-mode.png"></button>
+    
+
+
+    <div id="but" style="border:solid black thick">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione at eligendi nemo labore. Porro laborum, ipsum incidunt quod dolorum officiis aliquam cumque optio, aliquid error dignissimos. Rem, nisi ipsum natus eligendi iure minima reprehenderit quod facilis veritatis distinctio culpa incidunt nesciunt laudantium maxime aliquam omnis ullam? Non, quae earum. Eos impedit aspernatur quam officia perspiciatis veniam provident. Temporibus esse dicta eum ducimus, cupiditate dolor fugiat numquam fugit eos harum dignissimos facilis molestias blanditiis autem earum sunt cumque eveniet porro, sapiente beatae veritatis voluptate quod officia. Totam, cupiditate facilis? Doloremque, sed officiis. At optio labore ut soluta amet quam doloribus quasi ullam! Asperiores, dicta, sunt sequi accusantium expedita minima voluptas quod nobis consequuntur maiores quibusdam accusamus eveniet distinctio eum magni ea, iure ab nesciunt quos natus dolorum deserunt eius labore? Aliquid quibusdam ab vitae architecto eligendi, in excepturi, voluptate libero consequuntur consequatur eius modi eveniet velit obcaecati animi, vero culpa assumenda atque soluta adipisci impedit perferendis molestias? Molestiae pariatur maiores perferendis, inventore vero vitae. Recusandae dolorem fugit reprehenderit officiis corrupti consequatur ex adipisci vero voluptatibus, ab et quod laudantium unde aperiam, quas sapiente aliquid, veniam doloremque tempore quisquam porro aliquam tempora. Veritatis quo inventore, libero maxime quasi rem illo magnam dignissimos.
+    </div>
+    <script>
+
+var i=1; 
+       
+        function night(){
+
+if (i==1)
+{
+                document.getElementById("but").style.background="black";
+                
+                document.getElementById("but").style.color="white";
+
+                i++;
+
+}
+
+else if (i==2)
+{
+    document.getElementById("but").style.background="white";
+
+    document.getElementById("but").style.color="black";
+
+    i=1;
+}
+        }
+
+
+      
+
+
+
+
+
+
+    </script>
+</body>
+</html>

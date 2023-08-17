@@ -1,0 +1,317 @@
+*{box-sizing: border-box;}
+
+body{ background-color: rgb(204, 182, 182);}
+
+#a{margin-top: 4%;
+padding-top: 50px;}
+.alphabets{
+    width:60px;
+    height:50px;
+   padding-top:10px;
+    background-color: rgb(227, 208, 208);
+    border:solid ;
+    font-size: 27px;
+    
+    
+}
+
+
+
+.main{
+
+    width:80%;
+    height:auto;
+    background-color: rgb(227, 208, 208);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 10%;
+    box-shadow: 5px 5px 20px white ;
+}
+
+.alpbody,.alpbody2{
+    
+    height:auto;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     
+
+}
+
+.alpbody2{
+    margin:50px
+}
+
+
+
+
+
+.forword{
+    margin-left: 30%;
+    width:40%;
+    display:flex;
+    flex-direction: column;
+  
+    background-color: rgb(227, 208, 208);
+    border: solid black 1px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 20px white ;
+    font-size: 30px;
+
+}
+
+.dashinfo{
+  
+    height:50px;
+    padding-top: 2%;
+    font-size: 25px;
+}
+
+#guessword{
+
+    font-size: 30px;
+    height:50px;
+    padding-top: 2px;
+
+
+
+}
+
+
+
+
+
+.addinfo{
+    display:flex;
+ 
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.infos{
+
+    border-radius: 30px;
+    height: 200px;
+    position: relative;
+    flex-wrap: wrap;
+    flex:20%;
+    margin: 5%;
+    
+
+   margin-top: 0%;
+   
+ 
+
+}
+@media screen and (max-width: 600px) {
+    .addinfo div  {
+ flex-direction: column;
+ flex:100%}
+    }
+
+
+    @media screen and (max-width: 992px) {
+        .addinfo div {
+          flex: 50%;
+          
+        }}
+.statusdiv{
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width:300px;
+    height: 130px;
+    background-color: rgb(252, 235, 235);
+    display: none;
+
+    
+    
+}
+
+.statusdiv button{
+   
+    width:100px;
+    height: 30px;
+    border-radius: 10px;
+    border:solid black 2px;
+    background-color: rgb(235, 212, 212);
+    box-shadow: 3px 3px 20px white ;
+    position: absolute;
+    bottom:20px;
+    left:31%;
+}
+
+
+
+.line1{
+    width:120px;
+    border:solid black 3px;
+    position: absolute;
+    top:4px;
+    left:17px;
+
+
+}
+
+.line2{
+
+    height:185px;
+    border:solid black 3px;
+    position: absolute;
+    top:4px;
+    left:17px;
+
+}
+
+.line3{
+    width:120px;
+    border:solid black 3px;
+    position: absolute;
+    top:164px;
+    left:4px;
+
+
+}
+
+
+.line4{
+    height:30px;
+    border:solid black 3px;
+    position: absolute;
+    top:3.5px;
+    left:132px;
+
+
+}
+
+.line5{
+    height:120px;
+    width: 100px;
+   
+    position: absolute;
+    top:29px;
+    left:84px;
+    position:absolute;
+
+
+
+}
+
+
+#wrong1{
+    font-size:65px;
+    position: relative;
+    top:-27px;
+    left:34px;
+
+}
+
+.face{
+    position: absolute;
+    top:-1px;
+    left:1px;
+    display: none;
+
+}
+
+
+.bodyhangman{
+
+    position: absolute;
+    top:56px;
+    left:14px;
+    height: 60px;
+    border:solid black 4px;
+    display: none;
+}
+
+
+.leftarm{
+
+    position: absolute;
+    top:41px;
+    left:px;
+    display: none;
+}
+
+.rightarm{
+
+    position: absolute;
+    top:41px;
+    left:20px;
+    display: none;
+
+}
+
+
+.leftleg{
+
+    position: absolute;
+    top:94px;
+    left:px;
+    display: none;
+
+}
+
+.rightleg{
+
+    position: absolute;
+    top:94px;
+    left:18px;
+    display: none;
+}
+
+.disable{
+    pointer-events: none;
+    opacity:0.2;
+}
+
+
+#tries{
+
+    font-size: 80px;
+
+}
+
+#hints{
+
+    font-size: 40px;
+}
+
+.info1{
+   position: relative;
+   padding-left: 20px;
+}
+
+.info1 button{
+   
+
+    width:100px;
+    height:45px;
+    border-radius: 10px;
+    border:solid black 2px;
+    background-color: rgb(227, 208, 208);
+    box-shadow: 3px 3px 20px white ;
+    font-size: 32px;
+}
+
+#hints{
+
+   font-size:22px;
+
+ text-align: center;
+    display: none;
+
+}
+
+.info2{font-size: 20px;
+      text-align: center;}
+
+
+  

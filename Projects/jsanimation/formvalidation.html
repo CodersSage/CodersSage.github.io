@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input  id="input">
+    
+    <button id="button" onclick="displaydata()">Click me</button>
+    <p id="b1"></p>
+
+    <script>
+
+  function displaydata()
+  {
+        var number=document.getElementById("input").value;
+
+  
+        
+        var show;
+
+
+
+    
+        if (number>=100)
+        {
+
+            show="enter no less than 100";
+
+
+        }
+
+        else {
+
+            show="no is correct"
+        }
+
+        document.getElementById("b1").innerHTML=show;
+
+    }
+    </script>
+</body>
+</html>

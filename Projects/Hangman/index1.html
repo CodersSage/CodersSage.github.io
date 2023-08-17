@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANGMAN</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="main">
+    <h1 id="a">WELCOME TO HANGMAN</h1>
+
+
+    <div class="forword">
+        <p class="dashinfo">Your word contains letters</p><br><span id="letters"></span>
+        
+        
+        <p id="guessword"></p>
+    </div>
+  
+ 
+    <br>
+    <div class="alpbody">
+    <div class="alphabets" id="alphabet">A</div>
+    <div class="alphabets">B</div>
+    <div class="alphabets">C</div>
+    <div class="alphabets">D</div>
+    <div class="alphabets">E</div>
+    <div class="alphabets">F</div>
+    <div class="alphabets">G</div>
+    <div class="alphabets">H</div>
+    <div class="alphabets">I</div>
+    <div class="alphabets">J</div>
+    <div class="alphabets">K</div>
+    <div class="alphabets">L</div>
+    <div class="alphabets">M</div>
+</div>
+    <div class="alpbody2">
+    <div class="alphabets">N</div>
+    <div class="alphabets">O</div>
+    <div class="alphabets">P</div>
+    <div class="alphabets">Q</div>
+    <div class="alphabets">R</div>
+    <div class="alphabets">S</div>
+    <div class="alphabets">T</div>
+    <div class="alphabets">U</div>
+    <div class="alphabets">V</div>
+    <div class="alphabets">W</div>
+    <div class="alphabets">X</div>
+    <div class="alphabets">Y</div>
+    <div class="alphabets">Z</div>
+</div>
+
+   <br>
+
+ 
+   <div  class="addinfo">
+
+    <div class="infos info1"> <button id="hintbut" >HINT</button>
+        <div id="hints"></div></div>
+
+    <div class="infos "><p class="info2">TRIES LEFT ARE:</p><br>
+   <span  id="tries"></span></div>
+
+     <div class="infos info3 ">
+        <div id="wrongs">
+<div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
+<div class="line4"></div>
+<div class="line5">
+    <div  id="wrong1" >
+        <div id="face" class="face">o</div>
+        <div id="bodyhangman" class="bodyhangman"></div>
+        <div id="leftarm" class="leftarm">/</div>
+        <div id="rightarm"class="rightarm">\</div>
+        <div id="leftleg"class="leftleg">/</div>
+        <div id="rightleg"class="rightleg">\</div>
+    </div>
+
+
+</div>
+
+
+</div>
+     </div>
+     </div>
+
+
+   <div class="statusdiv">
+    <p id="status" ></p>
+    <button id="reset">PLAY AGAIN</button>
+
+   </div>  
+</div>   
+    <script src="script1.js"></script>
+
+</body>
+</html>
+

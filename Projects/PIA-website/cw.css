@@ -1,0 +1,13 @@
+img.r{
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+  }
+  
+  tr.intro {
+    font-size: 20px;
+    padding-left: 600px;
+    padding-top: 2%;
+    float: left;
+
+  }

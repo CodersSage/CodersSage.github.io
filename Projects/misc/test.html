@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+<p id="scr"></p>
+
+<button class="button">1</button>
+
+<button class="button">+</button>
+
+<button class="button">2</button>
+
+
+
+
+<script>
+
+var str="";
+
+const button=document.querySelectorAll('.button');
+
+const src=document.getElementById("scr");
+
+
+
+
+for (var i=0;i<button.length;i++ ){
+
+str+=button[i].innerHTML;
+
+src.innerHTML=str;
+
+// var str2=eval(str);
+
+// document.write(str2)
+
+}
+
+var str2=eval(str);
+
+document.write(str2)
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+        <div class="d1">
+
+          <img class="car1" id="c1"  src="2714749_sportcar_car_fastcar_formula_roadster_icon.png">
+
+            <img  class="car2" id="c2" src="44654_car_icon.png">
+
+
+        </div>
+        
+
+
+    <button class="b1" onclick="myMove()">START</button>
+
+    <script>
+        function myMove() {
+          let id = null;
+          const elem = document.getElementById("c1");  
+          const elem1= document.getElementById("c2");  
+          let pos = 0;
+          clearInterval(id);
+          id = setInterval(frame, 5);
+          function frame() {
+            if (pos == 1340) {
+              clearInterval(id);
+            //   pos++;
+            //       elem1.style.top = pos + "py"; 
+
+
+            } else {
+              pos++; 
+            //   elem.style.top = pos + "py"; 
+              elem.style.left = pos + "px"; 
+               
+              elem1.style.right = pos + "px";
+            }
+          }
+        
+              
+          
+        }
+
+
+
+
+
+        </script>
+
+
+
+</body>
+</html>

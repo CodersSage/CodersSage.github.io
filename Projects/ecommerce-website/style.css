@@ -1,0 +1,154 @@
+*{box-sizing: border-box;}
+body{max-width:100%;}
+
+header{
+    margin-top: -5px;
+display:flex;
+
+flex-direction: coloumn;
+
+background-color: whitesmoke;
+
+height:auto;
+
+
+}
+
+header div{
+    padding: 10px;
+    padding-left: 2%;
+}
+
+
+nav{
+    height:auto;
+    position:relative;
+}
+
+
+nav .logo{
+    width:160px;
+    position:absolute;
+    top:0;
+    left:80px;
+}
+
+nav input{
+
+    position:absolute;
+    top:6px;
+    left:250px;
+    width:500px;
+    height:40px;
+    border:solid white 2px;
+    background-color: whitesmoke;
+}
+
+nav button{
+    width:50px;
+    background-color: orange;
+    height:37px;
+    position:absolute;
+    top:6px;
+    left:740px;
+}
+
+nav .cart{
+    width:45px;
+    position:absolute;
+    top:6px;
+    left:820px;
+}
+
+nav .app{
+
+    width:150px;
+    position:absolute;
+    top:6px;
+    left:900px;
+}
+
+ .slider{
+    position: relative;
+    top:100px;
+    background-color: aqua;
+    width:100%;
+    height:400px;
+    background-image: url("https://icms-image.slatic.net/images/ims-web/d5ba912a-3ed0-4876-983c-51570df324f7.jpg_1200x1200.jpg");
+}
+
+section .products{
+    width:250px;
+    height:400px;
+     background-color: white;
+     position: absolute;
+     left:100px;
+}
+
+.products div{
+  padding-left: 10px;
+    width:250px;
+    height:30px
+}
+
+
+.cate{
+    display:flex;
+    flex:20%;
+    margin-top:13%;
+}
+
+.cate button{
+    margin-left: 80px;
+ 
+     border-radius: 20px;
+     width:200px; 
+     height:44px;
+     position:relative;
+     background-color: white;
+     border:1px solid grey;
+     font-size:20px;
+}
+
+
+.butimg{
+    width:40px;
+    position:absolute;
+    left:1px;
+    top:0px;
+    
+
+
+}
+
+.cate span{
+    padding-left:12px;
+}
+
+
+
+.flashsale{
+    margin:3%;
+}
+
+.fsproducts{
+    display:flex;
+
+ flex:10%;
+}
+.fsproducts div{
+ 
+    border: solid black 0.1px;
+   
+    width:180px;
+
+    height:auto;
+}
+
+.fsproducts div::hover{
+ 
+   
+    box-shadow: 10px 10px 10px black;
+}
+
+.leftproduct{margin-left: 4%;}

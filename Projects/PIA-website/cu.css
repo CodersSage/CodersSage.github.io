@@ -1,0 +1,27 @@
+img.r{
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+  }
+  
+  tr.intro {
+    font-size: 20px;
+    padding-left: 600px;
+    padding-top: 2%;
+    float: left;
+
+  }
+  .options{ 
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 3%;
+    float: left;
+
+  }
+  .right{
+    padding-left: 300px ;
+    padding-top: 3%;
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+  }

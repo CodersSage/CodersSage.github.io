@@ -1,0 +1,38 @@
+
+
+.d1{position:relative;
+    margin: 1%;
+    height:200px;
+width:97%;
+border:solid black thin;
+background-color: rgb(147, 137, 144);
+/* transform:rotate(12deg);
+transform-origin:left ;} */
+}
+.car1{position:absolute;
+    top:-84px;
+    left:0px;
+    width:190px;
+    
+    
+}
+
+
+.car2{position:absolute;
+    bottom:-50px;
+    right:0px;
+    width:190px;
+    transform: rotateX(-20deg);
+    
+}
+
+
+.b1{position:relative;
+left:48%;
+top:20px;
+font-size: 40px;
+background-color: black;
+color: white;
+font-family: 'Times New Roman', Times, serif ;
+border: solid black thick;
+border-radius: 30px;}
