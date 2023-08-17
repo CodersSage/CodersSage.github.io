@@ -114,7 +114,7 @@ height:70vh;
 .body{
     
     position:absolute;
-    left: 3%;
+    left: 4%;
     top:-32px; 
     font-size: 20px;
     border: solid  rgb(229, 204, 222) 5px;
@@ -132,7 +132,7 @@ height:70vh;
  
     font-size: 56px;
     position:relative;
-    top:440px;
+    top:420px;
     left:10px;
 
 
