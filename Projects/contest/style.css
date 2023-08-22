@@ -1,0 +1,480 @@
+*{box-sizing: border-box;}
+
+
+body{
+    width:100%;
+    background-color: rgb(5, 62, 5);
+    height:auto;
+   
+ 
+
+}
+
+.start{
+    width:100%;
+    height:100vh;
+    background-color: rgb(5, 62, 5);
+    color:white;
+    margin: auto;
+    margin-top: 0;
+
+
+    
+}
+
+.start h1{
+    text-align: center;
+font-size:5vw;
+padding-top: 40vh;
+color: rgb(229, 175, 27);
+height:auto;
+
+
+
+}
+
+
+.content{
+    width:100%;
+    height:auto;
+}
+
+nav{
+    width:100%;
+    height: 7vw;
+    background-color: black;
+    color:white;
+    font-size:2vw;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    color: rgb(229, 175, 27);
+    padding-left: 20px;
+    
+}
+
+nav .call{
+  
+    width:auto;
+    height:4vw;
+    position: absolute;
+    top:3vw;
+    right:3vw;
+    color: rgb(229, 175, 27);
+    font-size: 1.76vw;
+}
+
+.call .icon{
+width:2vw;
+
+}
+.intro{
+    background-color: rgba(0, 0, 0, 0.516);
+    width:80%;
+    height: auto;
+    margin: 8vw;
+    position: relative;
+    top:10vh;
+    border-radius: 5vw;
+    
+   
+
+}
+
+.intro img{
+    width:24vw;
+    height:29vw;
+    border-radius: 50%;
+    border:solid thick  rgb(5, 62, 5);
+    position: absolute;
+    top:13%;
+    right:45px;
+}
+
+.intro div{
+  
+    width:60%;
+    padding: 2vw;
+    
+}
+
+.intro p,.intro h2{
+font-size: 2vw;
+text-align:center;
+margin: 3vw;
+color: rgb(229, 175, 27);
+padding-bottom: 30px;
+}
+
+
+.intro button{
+
+
+    width:25vw;
+    margin-left: 8vw;
+    height:auto;
+    font-size: 1.7vw;
+    margin-bottom: 1vw;
+    border-radius:20px;
+    padding:1vw;
+    border:solid rgb(229, 175, 27) 3px ;
+  
+
+
+}
+
+a{text-decoration: none;
+    border-radius: 23vw;
+    padding: 0;
+    
+   
+}
+
+
+
+.img1{
+    width:32vw;
+   
+     
+    float:left;
+    margin-left: 12vw;
+    margin-top: 5vh;
+    border:solid black 10px;
+    height:36vw;
+
+}
+.img2{
+
+    width:32vw;
+    
+    background-color:rgb(244, 243, 239); 
+    float:left;
+    margin-left: 8vw;
+    margin-top: 5vh;
+    border:solid black 10px;
+    height:36vw;
+}
+
+.img1 img{
+
+    width:25vw;
+    margin-left: 3.25vw;
+    margin-top: 2vw;
+    
+}
+
+.img1 h3{
+    text-align: center;
+    font-size: 2vw;
+  color:rgb(229, 175, 27)
+}
+
+.img2 h3{
+    text-align: center;
+    font-size: 2vw;
+    color:rgb(229, 175, 27)
+}
+
+.img2 img{
+    width:25vw;
+    margin-left: 3.25vw;
+    margin-top: 2vw;
+    
+    height:20vw;
+    margin-right: 3.25vw;
+}
+
+.img1 button{
+    width:15vw;
+    margin-left: 7vw;
+    
+    height:auto;
+    font-size: 1.1vw;
+    margin-bottom: 1vw;
+    border-radius:20px;
+    padding:1vw;
+    border:solid rgb(229, 175, 27) 3px ;
+  
+
+}
+
+.img2 button{
+    float: left;
+    width:13vw;
+    height:4vw;
+    margin-left: 1.4vw;
+    font-size: 1vw;
+    border-radius:20px;
+    border:solid rgb(229, 175, 27) 3px ;
+   
+   
+
+
+}
+
+.img1,.img2{
+    border-radius:0px 5vw 0px 5vw;
+    background-color: rgba(0, 0, 0, 0.516);
+}
+
+
+.img1:hover,.img2:hover{transform: scale(1.02);}
+
+
+
+
+.cnt{background-color: aqua;}
+
+.footer{
+    clear:both;
+    width:100%;
+    height: 27vw;
+    background-color: black;
+    color:white;
+    font-size:2vw;
+   color: rgb(229, 175, 27);
+    margin-top: 39vw;
+    text-align: center;
+    position:relative;
+bottom:-8vh;
+left:-1vw;
+
+}
+
+.fbutton{
+ 
+    width:32vw;
+    margin-left: 9.5vw;
+    float:left;
+    height:6vw;
+    font-size: 2vw;
+
+    margin-bottom: 4vw;
+    border-radius:20px;
+    padding-bottom:0;
+
+    border:solid rgb(229, 175, 27) 3px ;
+    margin-top: 4vw;
+    border-radius: 3vw;
+    
+   
+}
+
+
+
+.contactpageinfo{
+
+    background-color: rgba(0, 0, 0, 0.516);
+    width:60%;
+    height: 30vw;
+    border-radius: 5vw;
+    color: rgb(229, 175, 27);
+    text-align: center;
+    position:relative;
+   
+    margin-top: 15vw;
+   
+    margin-left: 15vw;
+
+
+}
+
+.contactpageinfo div{
+
+    width:40%;
+    padding-top: 5vw;
+    padding-left: 2vw;
+    text-align: center;
+    font-size: 2.6vw;
+
+}
+
+.c{
+    width:25vw;
+    height:5vw;
+    font-size: 2vw;
+    padding-bottom:0.3vw;
+     background-color:  rgb(229, 175, 27);
+    color: black;
+    border-radius: 3vw;
+    position: absolute;
+    border:solid rgb(229, 175, 27) 3px ;
+top:20%;
+right:70px}
+
+.d{
+    width:25vw;
+    height:5vw;
+    font-size: 2vw;
+    padding-bottom:0.3vw;
+     background-color:  rgb(229, 175, 27);
+    color: black;
+    border-radius: 3vw;
+    border:solid rgb(229, 175, 27) 3px ;
+    
+    
+    position: absolute;
+    top:55%;
+    right:70px;}
+
+
+
+
+    .msg{
+        background-color: rgb(0, 0, 0);
+        width:80vw;
+        height: 15vw;
+    
+        margin-left: 10vw;
+        border-radius: 1vw;
+        color: white;
+        text-align: center;
+       
+        font-size: 2vw;
+        padding-top: 3vw;
+        border: solid thin white;
+       
+        margin-top: 15vw;
+   
+    margin-left: 8vw;
+    
+    }
+
+   
+    .cpbody{height:auto}
+
+
+
+    .bhome{
+    
+    width:25vw;
+    height:5vw;
+    font-size: 2vw;
+    padding-bottom:0.3vw;
+   
+    border-radius: 3vw;
+  
+    margin-left: 34vw;
+    margin-top: 6vw;
+    border:solid rgb(229, 175, 27) 3px ;
+    
+       }
+
+  
+     
+.q{
+    background-color: rgb(229, 175, 27) ;
+    color:black;
+   }
+
+
+ .q:hover{
+    
+    background-color: black;
+    color:  rgb(229, 175, 27) ;
+    }   
+
+
+    .jobs{
+        margin-top: 5vw;
+        clear: both;
+    }
+
+    .jobsh1{
+        margin-top: 10vw;
+        text-align: center;
+        font-size: 3vw;
+        color: rgb(229, 175, 27);
+    }
+
+
+
+
+    .jobs1{
+      
+        float:left;
+        width:32vw;
+        color: rgb(229, 175, 27);
+        background-color:rgb(244, 243, 239); 
+       
+        margin-left: 8vw;
+        margin-top: 5vh;
+        border:solid black 10px;
+        height:30vw;
+        border-radius:0px 5vw 0px 5vw;
+        background-color: rgba(0, 0, 0, 0.516);
+        text-align: center;
+        font-size: 1.5vw;
+    }
+
+
+    .jobs2{
+        float: left;
+        clear:right;
+        width:32vw;
+        color: rgb(229, 175, 27);
+        background-color:rgb(244, 243, 239); 
+        margin-left: 8vw;
+        margin-top: 5vh;
+        border:solid black 10px;
+        height:30vw;
+        border-radius:0px 5vw 0px 5vw;
+        background-color: rgba(0, 0, 0, 0.516);
+        text-align: center;
+        font-size: 1.5vw;
+    }
+    
+    
+    .jobs1 img,.jobs2 img{
+    
+        width:25vw;
+        
+        margin-top: 2vw;
+        
+    }
+
+
+    .jobs3{
+      
+        float:left;
+        width:32vw;
+        color: rgb(229, 175, 27);
+        background-color:rgb(244, 243, 239); 
+       
+        margin-left: 30vw;
+        margin-top: 5vh;
+        border:solid black 10px;
+        height:30vw;
+        border-radius:0px 5vw 0px 5vw;
+        background-color: rgba(0, 0, 0, 0.516);
+        text-align: center;
+        font-size: 1.5vw;
+    }
+
+
+
+@media screen and (width<=900px) {
+ 
+    .img1{clear: both;
+        margin-left: 24vw;
+        margin-top: 8vh;
+    width:38vw;
+    height:40vw;}
+    .img2{clear:both;
+        margin-left: 24vw;
+        width:38vw;
+        height:40vw;}
+        .img2 button{padding-bottom: 3vw;}
+.footer,.footer2
+{
+position:relative;
+bottom:-8vh;
+left:-3vw;
+}
+
+
+
+}
+
+
